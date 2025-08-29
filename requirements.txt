@@ -1,0 +1,12 @@
+fastapi==0.115.12
+uvicorn
+sqlalchemy
+pyodbc
+starlette
+loguru
+requests
+python-dotenv
+azure-identity
+azure-keyvault-secrets
+setuptools>=70.0
+h11==0.16.0
