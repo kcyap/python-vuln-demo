@@ -10,3 +10,6 @@ azure-identity
 azure-keyvault-secrets
 setuptools>=70.0
 h11==0.16.0
+libsqlite3-0==3.50.2
+zlib1g==Consider alternatives or monitor official zlib updates for version 1.3 fixes.
+form-data==4.0.4
