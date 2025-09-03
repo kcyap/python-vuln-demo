@@ -4,7 +4,7 @@ sqlalchemy
 pyodbc
 starlette
 loguru
-requests
+requests==2.32.4
 python-dotenv
 azure-identity
 azure-keyvault-secrets
