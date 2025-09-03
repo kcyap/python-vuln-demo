@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.10"
 
 [[package]]
@@ -43,14 +43,15 @@ wheels = [
 
 [[package]]
 name = "django"
-version = "2.0"
+version = "2.2.10"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pytz" },
+    { name = "sqlparse" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/87/9f/4ec8b197d83666fddd2398842024c5341ee7d40bbec6aee9705d1ad22f13/Django-2.0.tar.gz", hash = "sha256:9614851d4a7ff8cbd32b73c6076441f377c45a5bbff7e771798fb02c43c31f47", size = 7997472, upload-time = "2017-12-02T15:12:05.947Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/b7/69/abb0cfd9ee83209535e7021b34db6b19f4094a43a70a6e6f77da3c0ba606/Django-2.2.10.tar.gz", hash = "sha256:1226168be1b1c7efd0e66ee79b0e0b58b2caa7ed87717909cd8a57bb13a7079a", size = 8865888, upload-time = "2020-02-03T09:50:57.805Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/44/98/35b935a98a17e9a188efc2d53fc51ae0c8bf498a77bc224f9321ae5d111c/Django-2.0-py3-none-any.whl", hash = "sha256:af18618ce3291be5092893d8522fe3919661bf3a1fb60e3858ae74865a4f07c2", size = 7101093, upload-time = "2017-12-02T15:11:49.751Z" },
+    { url = "https://files.pythonhosted.org/packages/2b/b2/eb6230a30a5cc3a71b4df733de95c1a888e098e60b5e233703936f9c4dad/Django-2.2.10-py3-none-any.whl", hash = "sha256:9a4635813e2d498a3c01b10c701fe4a515d76dd290aaa792ccb65ca4ccb6b038", size = 7460410, upload-time = "2020-02-03T09:50:41.861Z" },
 ]
 
 [[package]]
@@ -169,7 +170,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "django", specifier = "==2.0.0" },
+    { name = "django", specifier = "==2.2.10" },
     { name = "flask", specifier = "==0.12" },
     { name = "itsdangerous", specifier = "<1.0.0" },
     { name = "jinja2", specifier = "<3.1.0" },
@@ -206,6 +207,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/54/1f/782a5734931ddf2e1494e4cd615a51ff98e1879cbe9eecbdfeaf09aa75e9/requests-2.19.1.tar.gz", hash = "sha256:ec22d826a36ed72a7358ff3fe56cbd4ba69dd7a6718ffd450ff0e9df7a47ce6a", size = 131068, upload-time = "2018-06-14T13:40:41.014Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/65/47/7e02164a2a3db50ed6d8a6ab1d6d60b69c4c3fdf57a284257925dfc12bda/requests-2.19.1-py2.py3-none-any.whl", hash = "sha256:63b52e3c866428a224f97cab011de738c36aec0185aa91cfacd418b5d58911d1", size = 91979, upload-time = "2018-06-14T13:40:38.236Z" },
+]
+
+[[package]]
+name = "sqlparse"
+version = "0.5.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e5/40/edede8dd6977b0d3da179a342c198ed100dd2aba4be081861ee5911e4da4/sqlparse-0.5.3.tar.gz", hash = "sha256:09f67787f56a0b16ecdbde1bfc7f5d9c3371ca683cfeaa8e6ff60b4807ec9272", size = 84999, upload-time = "2024-12-10T12:05:30.728Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a9/5c/bfd6bd0bf979426d405cc6e71eceb8701b148b16c21d2dc3c261efc61c7b/sqlparse-0.5.3-py3-none-any.whl", hash = "sha256:cf2196ed3418f3ba5de6af7e82c694a9fbdbfecccdfc72e281548517081f16ca", size = 44415, upload-time = "2024-12-10T12:05:27.824Z" },
 ]
 
 [[package]]
