@@ -10,3 +10,4 @@ azure-identity
 azure-keyvault-secrets
 setuptools>=70.0
 h11==0.16.0
+azure-core>=1.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
